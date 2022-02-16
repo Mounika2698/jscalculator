@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="app.css" />
+    </head>
+    <body> 
+        <section class="calcualtor">
+            <form>
+            <div class="heading-text">
+                <p>Standard <span id="standard">$0</span></p>
+                <p>Professional <span id="professtional">$0</span></p>
+            </div>
+            <div class="form-section">
+            <label for="calc">Pricing plan</label>
+            <select id="price-plan" class="form-input">
+               <option>Standard</option>
+               <option>Pro</option>
+            </select>
+        </div>
+        <div class="form-section form-range-section">
+            <label for="user-input">Users</label>
+            <input type="number" id="user-input" class="form-input" />
+            <div class="range">
+                <span>1</span>
+            <input value="1" type="range" step="1" id="user-select" min="1" max="50" class="range-input" />
+            <span>50</span>
+        </div>
+        </div>
+        <div class="form-section form-range-section">
+            <label for="account-input">Account</label>
+            <input type="number" id="account-input" class="form-input" />
+            <div class="range">
+                <span>1</span>
+            <input value="1" type="range" step="1" id="account-select" min="1" max="10" class="range-input" />
+            <span>10</span>
+        </div>
+        </div>
+        <div class="heading-text">
+            <h3 >Total Amount <span id="total-amount">$0</span></h3>
+        </div>
+    </form>
+    </section>
+    <script src="index.js"></script>
+    </body>
+</html>

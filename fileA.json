@@ -1,0 +1,54 @@
+{
+    "priceLists": {
+        "priceSets": [
+            {
+                "setId": "pricing10Stdusers",
+                "priceValue": "100"
+            },
+            {
+                "setId": "pricing30Stdusers",
+                "priceValue": "80"
+            },
+            {
+                "setId": "pricing50Stdusers",
+                "priceValue": "60"
+            },
+            {
+                "setId": "pricing10Prousers",
+                "priceValue": "110"
+            },
+            {
+                "setId": "pricing30Prousers",
+                "priceValue": "90"
+            },
+            {
+                "setId": "pricing50Prousers",
+                "priceValue": "70"
+            },
+            {
+                "setId": "pricing4Stdaccounts",
+                "priceValue": "100"
+            },
+            {
+                "setId": "pricing10Stdaccounts",
+                "priceValue": "80"
+            },
+            {
+                "setId": "pricing4Proaccounts",
+                "priceValue": "110"
+            },
+            {
+                "setId": "pricing10Proaccounts",
+                "priceValue": "90"
+            },
+            {
+                "setId": "pricingStd",
+                "priceValue": "100"
+            },
+            {
+                "setId": "pricingPro",
+                "priceValue": "110"
+            }
+        ]
+    }
+}
